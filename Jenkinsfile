@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "change-me"
+    DEPLOY_NAMESPACE = "k8s-minikube-dev-staging"
   }
   stages {
     stage('Validate Environment') {
